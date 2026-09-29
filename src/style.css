@@ -1,15 +1,15 @@
 body {
-  background-color: hsl(41, 100%, 94%);
+  background-color: hsl(0, 0%, 94%);
   font-family: Helvetica, Arial, sans-serif;
 }
 
 a {
-  color: hsl(28, 100%, 8%);
+  color: hsl(0, 0%, 8%);
   transition: color 200ms;
 }
 
 a:hover {
-  color: hsl(28, 100%, 24%);
+  color: hsl(0, 0%, 35%);
 }
 
 .container {
@@ -26,14 +26,14 @@ h1 {
   font-weight: 800;
   font-size: 36px;
   line-height: 1.5;
-  color: hsl(28, 100%, 8%);
+  color: hsl(0, 0%, 8%);
 }
 
 .form-container {
   background-color: white;
   margin-bottom: 30px;
   border-radius: 10px;
-  box-shadow: 0px 20px 60px hsla(28, 32%, 29%, 0.08);
+  box-shadow: 0px 20px 60px hsla(0, 0%, 20%, 0.08);
   padding: 30px;
 }
 
@@ -54,18 +54,18 @@ form {
 
 .input-field {
   padding: 16px;
-  border: 1px solid hsla(28, 100%, 8%, 0.5);
+  border: 1px solid hsla(0, 0%, 8%, 0.5);
   width: 80%;
   font-size: 14px;
   border-radius: 50px;
   line-height: 20px;
-  color: hsl(28, 100%, 8%);
+  color: hsl(0, 0%, 8%);
 }
 
 .submit-button {
   margin-left: 10px;
-  background: hsl(28, 99%, 72%);
-  color: hsl(28, 100%, 8%);
+  background: hsl(0, 0%, 72%);
+  color: hsl(0, 0%, 8%);
   border: none;
   width: 150px;
   font-size: 16px;
@@ -75,7 +75,7 @@ form {
 }
 
 .submit-button:hover {
-  background: hsl(28, 99%, 80%);
+  background: hsl(0, 0%, 82%);
 }
 
 .quote {
@@ -83,12 +83,12 @@ form {
   background-color: white;
   padding: 20px;
   line-height: 2;
-  border-left: 3px solid hsl(28, 99%, 72%);
-  box-shadow: 0px 4px 30px 0px hsla(28, 100%, 8%, 0.03);
+  border-left: 3px solid hsl(0, 0%, 72%);
+  box-shadow: 0px 4px 30px 0px hsla(0, 0%, 8%, 0.03);
 }
 
 .quote strong {
-  color: hsl(28, 100%, 8%);
+  color: hsl(0, 0%, 8%);
   font-style: italic;
   font-size: 14px;
 }
@@ -98,7 +98,7 @@ form {
 }
 
 .blink {
-  color: hsla(28, 100%, 8%, 0.9);
+  color: hsla(0, 0%, 8%, 0.9);
   font-size: 14px;
   animation: blink-animation 1s steps(5, start) infinite;
 }
@@ -110,7 +110,7 @@ form {
 }
 
 footer {
-  color: hsla(28, 100%, 8%, 0.7);
+  color: hsla(0, 0%, 8%, 0.7);
   text-align: center;
   font-size: 13px;
   margin-top: 30px;
